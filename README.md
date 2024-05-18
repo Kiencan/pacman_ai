@@ -31,6 +31,7 @@ python pacmanGUI.py
   <img src="./img/singleAgent.png">
 4. Để chạy các thuật toán tìm kiếm khi có đối thủ Reflex, Minimax, Alpha-beta prunning, Expectimax, ta lựa chọn các tác tử pacman, tác tử ma, các map còn lại trừ 3 map trên và thuật toán để **None**
    <img src="./img/multiAgent.png">
+   
 ## Images
 
   <img src="./img/menu.png">
