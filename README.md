@@ -27,9 +27,9 @@ python pacmanGUI.py
 ```
 2. Để chơi pacman thông thường, ta ấn thẳng nút **Play** mà không cần lựa chọn gì cả.
   <img src="./img/pacmanNormal.png">
-3. Để chạy những thuật toán DFS, BFS, ASTAR, UCS, ta cần lựa chọn tác tử pacman là `Search Agent`, chọn 1 trong 3 map Tiny Maze, Medium Maze, Big Maze, và chọn 1 trong 4 thuật toán, tác tử ma không lựa chọn
+3. Để chạy những thuật toán DFS, BFS, ASTAR, UCS, ta cần lựa chọn tác tử pacman là `Search Agent`, chọn 1 trong 3 map Tiny Maze, Medium Maze, Big Maze, và chọn 1 trong 4 thuật toán, tác tử ma không lựa chọn.
   <img src="./img/singleAgent.png">
-4. Để chạy các thuật toán tìm kiếm khi có đối thủ Reflex, Minimax, Alpha-beta prunning, Expectimax, ta lựa chọn các tác tử pacman, tác tử ma, các map còn lại trừ 3 map trên và thuật toán để **None**.
+4. Để chạy các thuật toán tìm kiếm khi có đối thủ Reflex, Minimax, Alpha-beta prunning, Expectimax, ta lựa chọn các tác tử pacman, tác tử ma, các map còn lại trừ 3 map trên và thuật toán để `None`.
    <img src="./img/multiAgent.png">
    
 ## Images
