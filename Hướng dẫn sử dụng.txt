@@ -1,0 +1,12 @@
+1. Cài đặt thư viện
+Để chạy chương trình, ta cần cài đặt các thư viện cần thiết bằng câu lệnh đơn giản sau:
+pip install -r requirements.txt
+
+2. Chạy chương trình
+Sau khi cài đặt thư viện xong, ta vào folder 'src', sau đó chạy file 'pacmanGUI.py' để khởi động chương trình:
+python pacmanGUI.py
+
+Lưu ý: Để tránh xảy ra lỗi chương trình ta cần lưu ý điều sau
+- Khi chạy bài toán search, ta giữ nguyên ghost agent, chọn pacman agent là Search Agent và lựa chọn thuật toán Heuristics.
+- 3 map thiết kế cho bài toán search là Tiny Maze, Medium Maze, Big Maze
+- Khi chạy bài toán multiagent, ta không chọn Search agent và Heuristic
