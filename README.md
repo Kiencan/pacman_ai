@@ -26,11 +26,11 @@ pip install -r requirements.txt
 python pacmanGUI.py
 ```
 2. Để chơi pacman thông thường, ta ấn thẳng nút **Play** mà không cần lựa chọn gì cả.
-  <img src="./img/menu.png">
+  <img src="./img/pacmanNormal.png">
 3. Để chạy những thuật toán DFS, BFS, ASTAR, UCS, ta cần lựa chọn tác tử pacman là `Search Agent`, chọn 1 trong 3 map Tiny Maze, Medium Maze, Big Maze, và chọn 1 trong 4 thuật toán, tác tử ma không lựa chọn
-  <img src="./img/menu.png">
+  <img src="./img/singleAgent.png">
 4. Để chạy các thuật toán tìm kiếm khi có đối thủ Reflex, Minimax, Alpha-beta prunning, Expectimax, ta lựa chọn các tác tử pacman, tác tử ma, các map còn lại trừ 3 map trên và thuật toán để **None**
-   <img src="./img/menu.png">
+   <img src="./img/multiAgent.png">
 ## Images
 
   <img src="./img/menu.png">
@@ -38,7 +38,9 @@ python pacmanGUI.py
   <img src="./img/agent.png">
   <img src="./img/solveMaze.png">
   <img src="./img/result.png">
-  
+
+## Đánh giá
+Tôi tạo ra giao diện này chỉ để minh họa trực quan cho những thuật toán học trên lớp cho nên có thể thuật toán không phải tốt nhất, độ phức tạp chưa cao. Mọi người có thể tham khảo vào source code, phát triển thuật toán để ứng dụng này trở nên tốt hơn. Thanks!
   
 
 
