@@ -1,26 +1,44 @@
 # Pacman AI in python
 <img src="./img/1.png" align="right" height="60" />
 
-This Pacman Ai is made On **Python 3.7** 
+Đây là một sự minh họa dễ hiểu cho các thuật toán tìm kiếm đơn giản.
 
-## Features
+## Cài đặt môi trường
+Chúng tôi sử dụng python phiên bản 3.9.6
+Để chạy chương trình, ta cần cài đặt các thư viện cần thiết bằng câu lệnh đơn giản sau:
+```
+pip install -r requirements.txt
+```
 
-1. GUI based menu
-2. Pacman Game
-3. Reflex Pacman Agent
-4. Alpha-Beta Pacman Agent
-5. ExpectiMax Pacman Agent
-6. MinMax Pacman Agent
-7. Random/ Smart Ghost Agent
-8. 10 Maps
-9. Depth Selection
-10. Iteration Selection
-11. Number of Ghost Selection
-12. Auto Result Output Without Display
+## Tính năng
 
+1. Giao diện GUI
+2. Trò chơi pacman thông thường
+3. Minh họa các thuật toán tìm kiếm DFS, BFS, UCS, A*
+4. Minh họa các thuật toán tìm kiếm khi có đối thủ Reflex, Minimax, Alpha-beta prunning, Expectimax
+5. Tác tử ma ngẫu nhiên và ma thông minh
+6. 3 Map thiết kế cho thuật toán tìm kiếm trong mê cung và 10 map thiết kế cho thuật toán tìm kiếm đối nghịch
+7. Chạy vòng lặp đo kết quả
+
+## Hướng dẫn sử dụng
+1. Sau khi cài đặt thư viện xong, ta vào folder 'src', sau đó chạy file 'pacmanGUI.py' để khởi động chương trình:
+```
+python pacmanGUI.py
+```
+2. Để chơi pacman thông thường, ta ấn thẳng nút **Play** mà không cần lựa chọn gì cả.
+  <img src="./img/menu.png">
+3. Để chạy những thuật toán DFS, BFS, ASTAR, UCS, ta cần lựa chọn tác tử pacman là `Search Agent`, chọn 1 trong 3 map Tiny Maze, Medium Maze, Big Maze, và chọn 1 trong 4 thuật toán, tác tử ma không lựa chọn
+  <img src="./img/menu.png">
+4. Để chạy các thuật toán tìm kiếm khi có đối thủ Reflex, Minimax, Alpha-beta prunning, Expectimax, ta lựa chọn các tác tử pacman, tác tử ma, các map còn lại trừ 3 map trên và thuật toán để **None**
+   <img src="./img/menu.png">
 ## Images
 
   <img src="./img/menu.png">
   <img src="./img/game.png">
   <img src="./img/agent.png">
-  <img src="./img/auto.png">
+  <img src="./img/solveMaze.png">
+  <img src="./img/result.png">
+  
+  
+
+
